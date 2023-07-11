@@ -1,0 +1,136 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&family=Lexend+Deca&display=swap');
+
+:root {
+    --cor1: #511F50;
+    --cor2: #A54A83;
+    --cor3: #FEFEFE;
+}
+
+* { 
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FEFEFE;
+    width: 100vw;
+    height: 100vh;
+
+    overflow-x: hidden;
+}
+
+main {
+    display: flex;
+    background-color: #FEFEFE;
+    width: 100vw;
+    height: auto;
+    padding: 10px;
+
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    background-color: #FEFEFE;
+    padding: 20px;
+    width: 375px;
+    height: auto;
+}
+
+section > #div_top > #div_top_1 > h1 {
+    font-family: 'League Spartan', sans-serif;
+    padding: 0px 60px;
+    font-weight: 700;
+    font-size: 2em;
+    text-align: center;
+    margin-top: 50px;
+    color: #511F50;
+}
+
+section > #div_top > #div_top_1 > p {
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 400;
+    font-size: 1.1em;
+    text-align: center;
+    line-height: 1.2em;
+    padding: 0px 4px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#div_top_2 > ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+section > #div_top > #div_top_2 > ul > div {
+    background-color: #F7F2F8;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+section > #div_top > #div_top_2 > ul > div > li {
+    color: #511F50;
+    font-family:'League Spartan', sans-serif;
+    font-weight: 700;
+    font-size: 1em;
+}
+
+.img_lista {
+    margin-bottom: 10px;
+}
+
+#div_bottom {
+    margin-top: 35px;
+}
+
+.itens_div {
+    background-color: #511F50;
+    margin-bottom: 15px;
+    padding: 25px;
+    border-radius: 5px;
+}
+
+.itens_div > p {
+    color:white;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.3em;
+
+    padding-top: 20px;
+}
+
+.itens_div_perfil {
+    display: flex;
+
+    align-items: center;
+}
+
+.itens_div_perfil > img {
+    width: 35px;
+    border-radius: 50%;
+}
+
+.itens_div_perfil > span {
+    color: white;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 0.9em;
+    font-weight: 500;
+    line-height: 1.1em;
+
+    margin-left: 20px;
+}
+
+.itens_div_perfil > span > p {
+    color:#b85995;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 0.9em;
+    font-weight: 500;
+}

@@ -1,0 +1,143 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 1200px){
+
+    section {
+        display:grid;
+
+        width: 1100px;
+
+        grid-template-areas:'div_top' 'div_bottom';
+        justify-content:center;
+        align-items: center;
+    }
+
+    section > #div_top > #div_top_1 > h1 {
+        text-align: left;
+        font-size: 3.5em;
+        padding-left: 0px;
+        padding-right: 180px;
+        margin-top: 20px;
+    }
+
+    section > #div_top > #div_top_1 > p {
+        color: rgba(0, 0, 0, 0.585);
+        text-align: left;
+        font-size: 1.2em;
+        padding-left: 0px;
+        padding-right: 100px;
+    }
+
+    #div_top {
+        width: 100%;
+        display: grid;
+        grid-area: div_top;
+
+        grid-template-areas: 'left_top right_top';
+
+        column-gap: 20px;
+
+        justify-content: center;
+        align-items: center;
+    }
+
+    #div_top_1 {
+        width: 550px;
+        grid-area: left_top;
+    }
+
+    #div_top_2 {
+        width: 550px;
+        grid-area: right_top;
+    }
+
+    #div_top_2 > ul {
+        text-align: left;
+    }
+
+    section > #div_top > #div_top_2 > ul > div {
+        display: flex;
+        width: 440px;
+        padding: 18px 0px;
+        margin-bottom: 10px;
+        border-radius: 10px;
+
+        align-items: center;
+    }
+
+    #div_top_2_div2 {
+        margin-left: 40px;
+    }
+
+    #div_top_2_div3 {
+        margin-left: 80px;
+    }
+
+    section > #div_top > #div_top_2 > ul > div > li {
+        margin-left: 20px;
+        font-size: 1.1em;
+    }
+
+    .img_lista {
+        margin-bottom: 0px;
+        margin-left: 25px;
+    }
+
+    .img_lista > img {
+        padding: 0px 2px;
+    }
+
+
+    #div_bottom {
+        display: grid;
+        width: 100%;
+        margin-top: 20px;
+        grid-area: div_bottom;
+
+        grid-template-areas: 'auto auto auto';
+
+        column-gap: 30px;
+        justify-content:flex-start;
+        align-items: center;
+
+    }
+
+    .itens_div {
+        width: 350px;
+        height: 230px;
+        margin-bottom: 0px;
+
+        padding: 30px;
+    }
+
+    #div_bottom_div2 {
+        margin-top: 30px;
+    }
+
+    #div_bottom_div3 {
+        margin-top: 60px;
+    }
+
+    .itens_div_perfil {
+        margin-top: 10px;
+    }
+
+    .itens_div_perfil > span {
+        font-size: 1.1em;
+    }
+
+    .itens_div_perfil > span > p {
+        font-size: 1em;
+    }
+
+    .itens_div > p {
+        color:white;
+        font-family: 'League Spartan', sans-serif;
+        font-size: 1em;
+        font-weight: 400;
+        line-height: 1.3em;
+    
+        margin-top: 25px;
+        padding-top: 0px;
+    }
+}
