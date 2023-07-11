@@ -68,23 +68,22 @@ section > #div_top > #div_top_1 > p {
     text-align: center;
 }
 
-section > #div_top > #div_top_2 > ul > div {
+section > #div_top > #div_top_2 > ul > ul {
+    list-style-type: none;
     background-color: #F7F2F8;
-    padding: 15px;
+    padding: 10px;
     margin-bottom: 15px;
     border-radius: 10px;
+    line-height: 1.5em;
 }
 
-section > #div_top > #div_top_2 > ul > div > li {
+section > #div_top > #div_top_2 > ul > ul > li {
     color: #511F50;
     font-family:'League Spartan', sans-serif;
     font-weight: 700;
     font-size: 1em;
 }
 
-.img_lista {
-    margin-bottom: 10px;
-}
 
 #div_bottom {
     margin-top: 35px;

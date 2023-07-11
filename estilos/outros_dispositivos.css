@@ -55,7 +55,7 @@
         text-align: left;
     }
 
-    section > #div_top > #div_top_2 > ul > div {
+    section > #div_top > #div_top_2 > ul > ul {
         display: flex;
         width: 440px;
         padding: 18px 0px;
@@ -65,28 +65,11 @@
         align-items: center;
     }
 
-    #div_top_2_div2 {
-        margin-left: 40px;
-    }
 
-    #div_top_2_div3 {
-        margin-left: 80px;
-    }
-
-    section > #div_top > #div_top_2 > ul > div > li {
+    section > #div_top > #div_top_2 > ul > ul > li {
         margin-left: 20px;
         font-size: 1.1em;
     }
-
-    .img_lista {
-        margin-bottom: 0px;
-        margin-left: 25px;
-    }
-
-    .img_lista > img {
-        padding: 0px 2px;
-    }
-
 
     #div_bottom {
         display: grid;
