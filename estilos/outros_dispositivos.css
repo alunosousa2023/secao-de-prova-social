@@ -51,9 +51,6 @@
         grid-area: right_top;
     }
 
-    #div_top_2 > div {
-        text-align: left;
-    }
 
     section > #div_top > #div_top_2 > div > ul {
         display: flex;
@@ -63,6 +60,18 @@
         border-radius: 10px;
 
         align-items: center;
+    }
+
+    .img_lista {
+        margin-left: 30px;
+    }
+
+    #div_top_2_ul2 {
+        margin-left: 40px;
+    }
+
+    #div_top_2_ul3 {
+        margin-left: 80px;
     }
 
 

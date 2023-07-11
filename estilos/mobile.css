@@ -63,13 +63,10 @@ section > #div_top > #div_top_1 > p {
     margin-bottom: 30px;
 }
 
-#div_top_2 > ul {
-    list-style-type: none;
-    text-align: center;
-}
 
 section > #div_top > #div_top_2 > div > ul {
     list-style-type: none;
+    text-align: center;
     background-color: #F7F2F8;
     padding: 10px;
     margin-bottom: 15px;
