@@ -51,11 +51,11 @@
         grid-area: right_top;
     }
 
-    #div_top_2 > ul {
+    #div_top_2 > div {
         text-align: left;
     }
 
-    section > #div_top > #div_top_2 > ul > ul {
+    section > #div_top > #div_top_2 > div > ul {
         display: flex;
         width: 440px;
         padding: 18px 0px;
@@ -66,7 +66,7 @@
     }
 
 
-    section > #div_top > #div_top_2 > ul > ul > li {
+    section > #div_top > #div_top_2 > div > ul > li {
         margin-left: 20px;
         font-size: 1.1em;
     }
